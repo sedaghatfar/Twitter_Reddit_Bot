@@ -1,4 +1,4 @@
-Top_Reddit_Sports
+Twitter_Reddit_Bot
 =================
 
 Tweets the top 3 Headlines from the Reddit.com/r/Sports
