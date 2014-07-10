@@ -25,7 +25,7 @@ def tweet_creator(subreddit_info):
                 # strip_title function is defined later
 		post_dict[strip_title(submission.title)] = submission.url
 		post_ids.append(submission.id)
-	print "[bot] Generating short link using goo.gl"
+	print "Generating short link using goo.gl"
 	mini_post_dict = {}
 	for post in post_dict:
 		post_title = post
