@@ -46,10 +46,10 @@ def shorten(url):
 
 #Makes the title fit Twitter's character limit
 def strip_title(title):
-	if len(title) < 94:
+	if len(title) < 114:
 		return title
 	else:
-		return title[:93] + "..."
+		return title[:113] + "..."
 
 def add_id_to_file(id):
 	with open('posted_posts.txt', 'a') as file:
